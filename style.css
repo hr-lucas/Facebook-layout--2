@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+    background: #f7f7f7;
+    /* padding-top: 10px; */
+}
+
+
+.center{
+    background-color: #f7f7f7;
+    /* margin: 10px 10px; */
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    /* border: 0px 0px 100px 0px solid black; */
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    padding: 8px 0;
+}
+
+.logo{
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    /* padding-right: -50px; */
+}
+
+form.form-login{
+    float: right;
+    width: 580px;
+    margin-top: -10px;
+    /* padding: 20px auto; */
+    padding: 20px 0px 5px 5px;
+
+    box-shadow: 2px 2px 5px 4px rgba(24, 24, 23, 0.151);
+    /* background-color: #1877f2; */
+    border-radius: 0px 0px 25px 25px;
+}
+
+.form-login .form-element{
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.form-element input[type=email], .form-element input[type=password]{
+    padding: 8px 20px 8px 20px;
+    margin: 10px 10px 10px 10px;
+    height: 35px;
+    border: 1px solid rgba(24, 24, 23, 0.15);
+    border-radius: 7px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: none;
+    background-color: #1877f2;
+    width: 140px;
+    height: 35px;
+    color: white;
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.form-element input[type=submit]:hover{
+    background-color:#00a400;
+}
+
+section.main{
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.img-pessoas{
+    float: left;
+    width:40%;
+    margin-left: 10px;
+}
+
+.img-pessoas img{
+    max-width: 100%;
+}
+
+.text p{
+    font-size: 24px;
+    font-weight: 500;
+    width: 50%;
+    padding: 25px;
+    /* padding-top: 10px; */
+}
+
+.abrir-conta{
+    float: right;
+    padding: 25px;
+    width: 580px;
+    margin-top: -100px;
+    height: 500px;
+    /* Box shadow */
+    -webkit-box-shadow: 3px -14px 40px -10px rgba(199,199,199,1);
+-moz-box-shadow: 3px -14px 40px -10px rgba(199,199,199,1);
+box-shadow: 3px -14px 40px -10px rgba(199,199,199,1);
+    border-radius: 15px;
+}
+
+.abrir-conta h2{
+    color:#1877f2;
+    font-size: 46px;
+    font-family: helvetica;
+    font-weight: 700;
+}
+.abrir-conta h3{
+    color:#083979;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: helvetica;
+    font-weight: 500;
+}
+
+form.criar-conta{
+    margin-top: 10px;
+}
+
+.w50{
+    width: 50%;
+    padding:0 5px;
+    float: left;
+}
+
+.w100{
+    width: 100%;
+    padding:0 5px;
+    float: left;
+}
+
+form.criar-conta input{
+    width: 100%;
+    margin-top: 6px;
+
+}
+
+form.criar-conta input[type=email],form.criar-conta input[type=text],form.criar-conta input[type=password]{
+    height: 40px;
+    border: 1px solid rgba(24, 24, 23, 0.15);
+    padding: 15px;
+    font-size: 15px;
+    font-family: helvetica;
+    font-weight: 300;
+    border-radius: 7px;
+}
+
+form.criar-conta input[type=submit] {
+    height: 40px;
+    /* padding-top: 10px; */
+    margin-top: 25px;
+    background: #00a400;
+    color: white;
+    font-size: 15px;
+    font-family: helvetica;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+    border-radius: 7px;
+    /* max-width: 200px; */
+}
+
+#date{
+    color: #1877f2;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: helvetica;
+    padding: 20px 0px 0 px 0px;
+    padding-top: 10px;
+}
+
+form select.nascimento{
+    float: left;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    width: 100px;
+    
+    font-size: 16px;
+    font-weight: 500;
+    font-family: helvetica;
+
+    border-radius: 7px;
+}
+.input-radio {
+    float: left;
+    width: 25%;
+}
+.input-radio p{
+    display: inline-block;
+}
+
+.input-radio input[type=radio]{
+    /* margin-left: 10px; */
+    display: inline-block;
+    width: auto !important;
+    border: none;
+}
+
+input[type=radio]{
+    border:0;
+    background: red;
+}
+
+@media screen and (max-width:768px){
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    form.form-login{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .text p{
+        width: 100%;
+        margin-top: -80px;
+    }
+
+    .img-pessoas{
+        display: none;
+    }
+    .abrir-conta{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <div class="center">
+               
+               <form class="form-login">
+                <div class="form-element">
+                    <!-- <p>Email ou Telefone</p> -->
+                    <input placeholder="Email ou Telefone" type="email">
+                </div> <!-- Form elementos-->
+                <div class="form-element">
+                    <!-- <p>Senha:</p> -->
+                    <input placeholder="Senha" type="password">
+                </div> <!-- Form elementos-->
+                <div class="form-element">
+                    <input type="submit" name="acao" value="Entrar">
+                </div> <!-- Form elementos-->
+               </form> <!--Formulario-->
+               <div class="logo">
+                <img src="Img/logo facebook.svg" alt="Facebook">
+            </div> <!-- LOGO-->
+               <div class="clear"></div>
+            </div> <!-- Center-->
+        </header>
+        <section class="main">
+            <div class="center">
+                <div class="text">
+                    <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+                </div>
+                <div class="img-pessoas">
+                    <img src="Img/people-connected-in-a-web-vector-clipart.png" alt="">
+                </div> <!-- IMG-->
+
+                <div class="abrir-conta">
+                    <!-- Informação cabeçalho -->
+                     <h2>Abra sua conta</h2>
+                     <h3>É gratuito e sempre será</h3>
+
+                     <form class="criar-conta">
+                         <div class="w50">
+                            <input placeholder="Nome" type="text">
+                         </div> <!-- w50-->
+
+                         <div  class="w50">
+                            <input placeholder="Sobrenome" type="text">
+                         </div> <!-- w50-->
+
+                         <div class="w100">
+                            <input placeholder="Seu e-mail" type="email">
+                         </div> <!-- w100-->
+
+                         <div  class="w100">
+                            <input placeholder="Crie sua senha" type="password">
+                         </div> <!-- w100-->   
+                         
+                         <div class="w100">
+                            <h4 id="date">Data de nascimento</h4>
+                            <select name="nascimento-dia" class="nascimento">
+                                <!-- <option disabled value="DIA">DIA</option> -->
+                                <option value="DIA">DIA</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="2">3</option>
+                                <option value="2">4</option>
+                                <option value="2">5</option>
+                                <option value="2">6</option>
+                                <option value="2">7</option>
+                                <option value="2">8</option>
+                            </select><!--Dia-->
+                            <select name="nascimento-mes" class="nascimento">
+                                <option value="0">Mês</option>
+                            </select><!-- Mês-->
+                            <select class="nascimento">
+                                <option value="0">ANO</option>
+                            </select><!-- ANo-->
+                            <div class="clear"></div>
+                         </div> <!-- w100-->
+                         <div class="w100">
+                             <div class="input-radio">
+                                 <input type="radio" name="sexo" value="Masculino">
+                                 <p>Masculino</p>
+                             </div><!-- Radio - MASCULINO-->
+
+                             <div class="input-radio">
+                                <input type="radio" name="sexo" value="Masculino">
+                                <p>Feminino</p>
+                            </div><!-- Radio - Feminino-->
+                            <div class="clear"></div>
+                         </div>
+                         <div class="w100">
+                             <input type="submit" name="acao" value="Cadastrar!">
+                         </div>
+                         
+                         <div class="clear"></div>
+
+                     </form> <!-- Criar conta-->
+                </div> <!-- Abra sua conta-->
+            </div> <!-- Center-->
+        </section> <!-- Main-->
+</body>
+</html>
